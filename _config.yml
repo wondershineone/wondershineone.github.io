@@ -1,0 +1,18 @@
+name: Wonder Shine Blog
+url: 'https://wondershineone.github.io'
+description: ''
+
+exclude: [Gemfile, Gemfile.lock, README.md]
+markdown: kramdown
+
+author: 'WonderShine'
+disqus_shortname: wondershine
+
+gems:
+  # https://help.github.com/articles/atom-rss-feeds-for-github-pages/
+  - jekyll-gist
+  - jekyll-sitemap
+
+sass:
+    sass_dir: _sass
+    style: :compressed
